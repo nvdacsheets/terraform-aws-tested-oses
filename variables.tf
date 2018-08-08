@@ -1,20 +1,20 @@
 variable "provider" {
-  description = "the provider to use"
+  description = "Provider to use"
   default     = "aws"
 }
 
 variable "os" {
-  description = "the operating system to use"
+  description = "Operating system to use"
   default     = "centos_7.4"
 }
 
 variable "region" {
-  description = "specify a region to use. If not specify AWS current region is used"
+  description = "Region to use. If not specify AWS current region is used."
   default     = ""
 }
 
 variable "aws_default_os_user" {
-  description = "map a system to its default users"
+  description = "Map a system to its default users"
   type        = "map"
 
   default = {
@@ -27,7 +27,7 @@ variable "aws_default_os_user" {
 
 # AWS recommends all HVM vs PV. HVM Below.
 variable "aws_ami" {
-  description = "A map of system and region combinations to their AMI ID"
+  description = "Map of system and region combinations to their AMI ID"
   type        = "map"
 
   default = {
