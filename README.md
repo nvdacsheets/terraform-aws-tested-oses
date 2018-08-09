@@ -17,11 +17,11 @@ module "dcos-tested-oses" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| aws_ami | A map of system and region combinations to their AMI ID | map | `<map>` | no |
-| aws_default_os_user | map a system to its default users | map | `<map>` | no |
-| os | the operating system to use | string | `centos_7.4` | no |
-| provider | the provider to use | string | `aws` | no |
-| region | specify a region to use. If not specify AWS current region is used | string | `` | no |
+| aws_ami | Map of system and region combinations to their AMI ID | map | `<map>` | no |
+| aws_default_os_user | Map a system to its default users | map | `<map>` | no |
+| os | Operating system to use | string | `centos_7.4` | no |
+| provider | Provider to use | string | `aws` | no |
+| region | Region to use. If not specify AWS current region is used. | string | `` | no |
 
 ## Outputs
 
