@@ -6,7 +6,7 @@ sudo echo 'overlay' >> /etc/modules-load.d/overlay.conf
 sudo modprobe overlay
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
-sudo yum install docker-ce
+sudo yum install -y docker-ce
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo yum install -y wget
