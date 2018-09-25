@@ -1,5 +1,5 @@
 variable "provider" {
-  description = "Provider to use"
+  description = "provider"
   default     = "aws"
 }
 
@@ -9,12 +9,12 @@ variable "os" {
 }
 
 variable "region" {
-  description = "Region to use. If not specify AWS current region is used."
+  description = "region"
   default     = ""
 }
 
 variable "aws_default_os_user" {
-  description = "Map a system to its default users"
+  description = "Map OS name to default login user (e.g. centos -> centos, coreos -> coreos)"
   type        = "map"
 
   default = {
@@ -27,7 +27,7 @@ variable "aws_default_os_user" {
 
 # AWS recommends all HVM vs PV. HVM Below.
 variable "aws_ami" {
-  description = "Map of system and region combinations to their AMI ID"
+  description = "AMI that will be used for the instances instead of Mesosphere provided AMIs"
   type        = "map"
 
   default = {
