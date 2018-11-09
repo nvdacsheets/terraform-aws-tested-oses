@@ -1,5 +1,5 @@
 variable "provider" {
-  description = "provider"
+  description = "Provider to use"
   default     = "aws"
 }
 
@@ -141,6 +141,23 @@ variable "aws_ami" {
     coreos_1576.5.0_ap-northeast-1 = "ami-ffae3799"
     coreos_1576.5.0_ap-south-1     = "ami-f0f5a19f"
     coreos_1576.5.0_sa-east-1      = "ami-053b7969"
+
+    # CoreOS 1855.5.0
+    coreos_1855.5.0_ap-northeast-1 = "ami-0a8c6be5f87b35dd4"
+    coreos_1855.5.0_ap-northeast-2 = "ami-0cac5781f008b2bda"
+    coreos_1855.5.0_ap-south-1     = "ami-0cd820071bc8b5305"
+    coreos_1855.5.0_ap-southeast-1 = "ami-00aa99ecc25144574"
+    coreos_1855.5.0_ap-southeast-2 = "ami-008d71c75e5ae947c"
+    coreos_1855.5.0_ca-central-1   = "ami-07d53410c0f2b0132"
+    coreos_1855.5.0_eu-central-1   = "ami-09699c9a5df9e662b"
+    coreos_1855.5.0_eu-west-1      = "ami-07c86c6e70759b682"
+    coreos_1855.5.0_eu-west-2      = "ami-074e993e6c24f801b"
+    coreos_1855.5.0_eu-west-3      = "ami-09cb56d44bcbdde4b"
+    coreos_1855.5.0_sa-east-1      = "ami-01b155f0246dad1a8"
+    coreos_1855.5.0_us-east-1      = "ami-0bb5afc82c391abb7"
+    coreos_1855.5.0_us-east-2      = "ami-068b76746d50afb12"
+    coreos_1855.5.0_us-west-1      = "ami-07d8f0cf1498b72f4"
+    coreos_1855.5.0_us-west-2      = "ami-0884a563b7da04715"
 
     # RHEL 7.3
     rhel_7.3_ap-south-1     = "ami-29bdc246"

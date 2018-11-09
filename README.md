@@ -20,7 +20,7 @@ module "dcos-tested-oses" {
 | aws_ami | AMI that will be used for the instances instead of Mesosphere provided AMIs | map | `<map>` | no |
 | aws_default_os_user | Map OS name to default login user (e.g. centos -> centos, coreos -> coreos) | map | `<map>` | no |
 | os | Operating system to use | string | `centos_7.4` | no |
-| provider | provider | string | `aws` | no |
+| provider | Provider to use | string | `aws` | no |
 | region | region | string | `` | no |
 
 ## Outputs
@@ -29,5 +29,5 @@ module "dcos-tested-oses" {
 |------|-------------|
 | aws_ami | AMI that will be used for the instances instead of Mesosphere provided AMIs |
 | os-setup | os-setup |
-| user | user |
+| user | User |
 
