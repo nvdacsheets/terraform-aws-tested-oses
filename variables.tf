@@ -1,5 +1,5 @@
 variable "provider" {
-  description = "provider"
+  description = "Provider to use"
   default     = "aws"
 }
 
@@ -79,6 +79,23 @@ variable "aws_ami" {
     centos_7.4_us-east-2      = "ami-2d103948"
     centos_7.4_us-west-1      = "ami-b1a59fd1"
     centos_7.4_us-west-2      = "ami-02c71d7a"
+
+    # Centos 7.5
+    centos_7.5_ap-south-1     = "ami-1780a878"
+    centos_7.5_eu-west-3      = "ami-262e9f5b"
+    centos_7.5_eu-west-2      = "ami-00846a67"
+    centos_7.5_eu-west-1      = "ami-3548444c"
+    centos_7.5_ap-northeast-2 = "ami-bf9c36d1"
+    centos_7.5_ap-northeast-1 = "ami-8e8847f1"
+    centos_7.5_sa-east-1      = "ami-cb5803a7"
+    centos_7.5_ca-central-1   = "ami-e802818c"
+    centos_7.5_ap-southeast-1 = "ami-8e0205f2"
+    centos_7.5_ap-southeast-2 = "ami-d8c21dba"
+    centos_7.5_eu-central-1   = "ami-dd3c0f36"
+    centos_7.5_us-east-1      = "ami-9887c6e7"
+    centos_7.5_us-east-2      = "ami-9c0638f9"
+    centos_7.5_us-west-1      = "ami-4826c22b"
+    centos_7.5_us-west-2      = "ami-3ecc8f46"
 
     # CoreOS 835.13.0
     coreos_835.13.0_eu-west-1      = "ami-4b18aa38"
