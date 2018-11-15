@@ -1,5 +1,5 @@
 output "user" {
-  description = "user"
+  description = "User"
   value       = "${data.template_file.aws_ami_user.rendered}"
 }
 
