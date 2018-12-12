@@ -9,7 +9,7 @@
  *```hcl
  * module "dcos-tested-oses" {
  *   source  = "terraform-dcos/tested-oses/aws"
- *   version = "~> 0.1"
+ *   version = "~> 0.1.0"
  * }
  *```
  */
