@@ -166,7 +166,7 @@ variable "aws_ami" {
     coreos_1855.5.0_ap-southeast-1 = "ami-00aa99ecc25144574"
     coreos_1855.5.0_ap-southeast-2 = "ami-008d71c75e5ae947c"
     coreos_1855.5.0_ca-central-1   = "ami-07d53410c0f2b0132"
-    coreos_1855.5.0_cn-north-1     = "ami-07d53410c0f2b0132"
+    coreos_1855.5.0_cn-north-1     = "ami-0211d60ca1aaa3c7d"
     coreos_1855.5.0_eu-central-1   = "ami-09699c9a5df9e662b"
     coreos_1855.5.0_eu-west-1      = "ami-07c86c6e70759b682"
     coreos_1855.5.0_eu-west-2      = "ami-074e993e6c24f801b"
